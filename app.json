@@ -6,11 +6,11 @@
   "keywords": ["whatsapp", "bot", "multi-device", "baileys"],
   "buildpacks": [{ "url": "heroku/nodejs" }],
   "env": {
-    "SESSION_ID": {
+    "MAXX-XMD~H4sIAAAAAAAAA82Wy47jNhaGX6XBbRmx7hcDBYS6WnbZZfluD2ZBS5RMW5ZkirKtCmqRnq5+Db/CLGc2eSY/QiC7qjtBkkYF6EUECBBJ8fA7P3nO4U8gzUiBu7gCrZ9ATskBMVx/sirHoAWMMoowBQ0QIoZAC3gOakfuuDJW7uphM1kch3e+42blLuOU9iIPy0GHaB3YRG3pHjw3QF6uEhJ8w+Bj2Ox5++183pw5p8myp3EjCT5my4xW5bYpmnq0FBfi8tj0tXvwXFtEhJI0tvM13mGKki6uBojQ9+Fv7bXkrqRyu+zMV+vw1OmGZnzEydTb9tcrclA5wV86lr3ZvRM/945lOrO5uVyKdtuks8VJWy2aG66YjmFzAzlh9cQ7D8NYlG74BYlTHHohThlh1bt1jzvRZKDb/eNgYu0VmwSinnjddY/jFGGYo0np7seFLI6h678P3Ourfl/UJmxZpZaA54/dtSwe9z7v63Mk2ChfQHHQ9zo5/zvwAX07K9u/o7vpzGKIrTW3empu59XhZOGZtmyaMYd2wjhg69n0yTwa/YNbvA+/INsHfy8VyQJFTYi3T0WnO9h4BC1hxHuj4UDQShjHd5Lof8VHrKTfokzmZCnu+Sld7lfbhewY2Uo3k2Gw76q9sRU/lOZwOdr4U+ehX0WGYpBV7BwG017OndK0l2wNAQ8H3m4uDpKID9t3SuxMTP/+6tEWV14IWvxzA1Ack4JRxEiW1n1aA6DwMMIBxewqLlhGGh89ZS4hTmZt/NlcssRMcB8sTckWzmI1cSMvMhW3OYT3oAFymgW4KHDYJgXLaNXDRYFiXIDWv677VLtM8S5juENC0AKCrKiSJtev9GPxw3GNWIHy/IcUM9AAEc12PQxaEUoK3ADXGdAUNEc1bUGQFFGVdB1CS5UVWdIczVI4vYZAlJGA5ChloAVA7VNIcVGQNO5lYS13ntZC7G5wY7LDBUO7HLR4VVVVSeJE4bnx3XhtaBmWZUBR5DVJUXmeFyzImYZkGFAx/nm8Ki+LtsrZsm0YUJcsjjdUToa6qWoaL//zeA1eNW1dEAUJQkVRNcGydMNWRd4RHR1+H17xO/IqKq+buqxAWZE1XTMVTXFsVeMc3XK478QrPf+7AVJ8YrcseY1tXmyAiNCCTdIyTzIUvuXQL6MoCLIyZaMqDcz6A1PQ4r92Y8ZIGhe1BmWKaLAmB2zWHr96+CWhYIpD0GK0xF+KpHkDh32nM5N0E9T0taE/qNji/6hjcvtL0RVdUjhBkyWJ51v8j3V/A6SoNgUu588fL+dP/72cP79czi//u5xffrmcP3+6nD///OHDhw+X86f/39ovHy/nl/+8jn2slXz1sAYKMUMkKepK0afd2NNcu5OehJ7mutCOoRnXO/SmyFsmv+XKtCvTHqFBSIPxYiokRyIcBGHIxNA4LsjGnArNTbh04pU4uf8TI7WFfKONuPG+bw28QS521J0C10gmBzGj2ziy55OBkeRRHM38TN2PI86bPFYx7o168lp/WvuyqpWHrpy2F4VSjnKNJM3YPN7Xq4X4QAL828W0GW1u7zq+18F5si89qpjDYtrmh4u8X+2Y2uf2mwIa3OlxeHrKN2wmYGNQ3XlBOsfFYa+qy2E8d+VVJ+0/pBPoLvKBYMBbjbnWuOT1bkFe8z+5NiOCr6X6ddv+aldvvPXR5J4bv5n6WvP/om4ay6pET95ebCPRFpwwDzxGdbZdhaIfuF52TMKDJM6GC1fnwXMdJHmCWJTRHWgBlIY0uy5Os7I+6l4aZd+6SkDPM/zYqx1OUMHg1/D5s5jkG2BXwTwfMcTewg7A+nlUCXj+FY/7/cMACwAA": {
       "description": "MAXX-XMD SESSION ID. Get it from https://pair.maxxtech.co.ke",
       "required": true
     },
-    "OWNER_NUMBER": {
+    "+256748574854": {
       "description": "Your WhatsApp number with country code (e.g. 254700000000). Optional — if not set, the bot treats itself as the owner.",
       "required": false
     },

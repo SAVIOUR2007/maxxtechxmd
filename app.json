@@ -6,11 +6,11 @@
   "keywords": ["whatsapp", "bot", "multi-device", "baileys"],
   "buildpacks": [{ "url": "heroku/nodejs" }],
   "env": {
-    "SESSION_ID": {
+    "MAXX-XMD~H4sIAAAAAAAAA5VVy66qSBT9lU5Nj7mIvNTkJI2ICvj2gGjnDgoooJSXUIhw46CnPezESScmnfTr9/yEDp7XHfS9OT3bVQV7r73W2lVfQBTjDGmoBN0vIEnxERJUh6RMEOiCXu66KAUN4EACQRfk0zkS3T3Udm0KcdJ8NZfRcGdq1mFGbfaJmrjhEEbTQxiJj+DcAEluBdj+TkKiDYJlnx5uT9bB5HpRaY4G+1NO9NlEd40l3qoTy9jCVrlaPIJznRHiFEeenPgoRCkMNFTOIU4/Bj/rU1KEO09h2uNpIVrz4+mG6nMr/MBiJmVnC247dsaFzBjxx+A/sILilqPdRCUdhZNbD9qEXz89xYa12h2qnacq+tqkRH+tF8/wM+xFyFEcFBFMyg/zDpXWRgvygEonJ1T1duZ4tER9jZWDGWuo+miuBjav+2rUnHwMeMtPYNvawUyUe+LmuCJDeV1JrYwdLH12WQ0WnRVZ6IKfVeLXwOfpq1f2/4f3lSJVrZMuSG68FLgYzeRiMLSEKXWCcXPqY9VSPDzgfG3Q/hj8JXaQnNPH/NSiK8OOh87AECKPczemKy2dgJkszfVTwm39zTt8SPL0u+b26SUMV6G0UTqOERcF7o+MSWHTQ4ruKFTS9/qkNRrJDJrvzMwtGAqTgqf4pg6NU6kfOP5QuT3VDppqjh0RPm10r1c83jvao1JxQJc+N0CKPJyRFBIcR/c9rtMA0DmukJ0icqcXcFvTXLS3ibGois6qHxfLk8Yeq71Z8mzGI4UZFw/rceTNXPYRNECSxjbKMuSMcEbitJygLIMeykD3p88NEKETeRauLtemmQZwcZoRPcqTIIbOq6xvp9C24zwiqzKypTpAKeg237cRITjysprJPIKp7eMjknxIMtB1YZChtx5RihzQJWmO3uZWip2a+uGwp27Ffhs0QHiXBDu1KTleYJkmz7dputtq/Zh9Kuq0MEk+RYiABohg/TW4XS+/3K6XX2/Xyz+36+W32/Xy++16+ft2vfzxw+16+fll8eftevnrNQYNENyr0ALTFJo8x7NthmU6daH64PzWYI3HQQTiIANdIKn9KZV5kjzFOZO1h0NR8UTJE8E7Ia/eetZO2dLLXIlkwvQ64dqxBiOvbxE86m1bgWapnBpuJN2Ip8T3Hv8jCeiCIDarILTbTibhsF2w2siczXaJ6p9anbjkQ7cS4TTPDZzKqcYi06QOwlEjTdXr9QzZtTZVgagyzWxGEmIK8/28nNyN2AAOOmIbfV1s1xyXZZ5xZLQcmMcxbfSnC4/er2WR6UhJCAf6oZCmeYcdGht3Atv+iHhrhMYl1tBsuFUk3k5JNUKyZdtk7zfTJOEk8dn196kLXm47fPdjLXW9dDG6Xx4vkn5DlFfAtTWb58ZX/75cQ98Y5d5q6OgWVk9jp3C3QbQ+LVmxJWz8Yu0kq7BEq20oBgPYtzYbcD5/boAkgMSN07B+JUILggZI47z2uRK58XcqSaKn9BbetG43gBkR32fnCYcoIzBMQJcWBKHNMO0Wc/4XMDfvFnMHAAA=": {
       "description": "MAXX-XMD SESSION ID. Get it from https://pair.maxxtech.co.ke",
       "required": true
     },
-    "OWNER_NUMBER": {
+    "256743066811": {
       "description": "Your WhatsApp number with country code (e.g. 254700000000). Optional — if not set, the bot treats itself as the owner.",
       "required": false
     },
@@ -49,6 +49,69 @@
       "value": "false",
       "required": false
     },
+    {
+  "AUTOREACT_STATUS": {
+    "description": "Automatically react to status updates",
+    "value": "false",
+    "required": false
+  },
+  "AUTO_READ": {
+    "description": "Automatically mark incoming messages as read",
+    "value": "false",
+    "required": false
+  },
+  "BOT_NUMBER": {
+    "description": "The WhatsApp number the bot is logged in as",
+    "value": "91xxxxxxxxxx",
+    "required": true
+  },
+  "PREFIX": {
+    "description": "The symbol used before a command (e.g. . or !)",
+    "value": ".",
+    "required": false
+  },
+  "OWNER_NUMBER": {
+    "description": "The primary admin phone number with country code",
+    "value": "91xxxxxxxxxx",
+    "required": true
+  },
+  "MONGODB_KEY": {
+    "description": "Connection string for the MongoDB database",
+    "value": "your_mongodb_url",
+    "required": true
+  },
+  "SESSION_ID": {
+    "description": "Unique identifier for the authenticated session",
+    "value": "session_code",
+    "required": true
+  },
+  "AUTO_REPLY": {
+    "description": "Enable or disable automated responses",
+    "value": "true",
+    "required": false
+  },
+  "LOG_LEVEL": {
+    "description": "Sets the detail level for system logs (ERROR, WARN, INFO)",
+    "value": "INFO",
+    "required": false
+  },
+  "WELCOME_MSG": {
+    "description": "Enable automatic welcome messages for new group members",
+    "value": "true",
+    "required": false
+  },
+  "ANTI_LINK": {
+    "description": "Automatically remove or warn users who post links",
+    "value": "false",
+    "required": false
+  },
+  "MODE": {
+    "description": "Set bot access to 'public' or 'private'",
+    "value": "public",
+    "required": false
+  }
+  }
+  
     "ANTICALL": {
       "description": "Reject incoming calls automatically",
       "value": "false",
